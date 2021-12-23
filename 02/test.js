@@ -6,8 +6,8 @@ it("first step should return 150", () => {
     expect(result).toBe(150);
 });
 
-it("second step should return 0", () => {
+it("second step should return 900", () => {
     const result = solveStep2("/02/test.values.txt");
 
-    expect(result).toBe(0);
+    expect(result).toBe(900);
 });
